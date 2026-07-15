@@ -54,6 +54,17 @@
     lyricsScroll.scrollTop=0;
   }
 
+  function updateMediaMetadata(item){
+    if(!("mediaSession" in navigator)||!("MediaMetadata" in window))return;
+    try{
+      navigator.mediaSession.metadata=new MediaMetadata({
+        title:item.label,
+        artist:item.song.homageIntent||item.song.title,
+        album:"Suno Studio"
+      });
+    }catch(error){}
+  }
+
   function selectTrack(index,autoplay){
     activeTrack=index;
     var item=tracks[index];
@@ -67,6 +78,7 @@
     document.getElementById("storyTitle").textContent=item.song.title;
     document.getElementById("storyIntent").textContent=item.song.homageIntent;
     renderLyrics(item.song);
+    updateMediaMetadata(item);
     if(autoplay)audio.play().catch(function(){});
   }
 
@@ -76,11 +88,15 @@
   });
   audio.addEventListener("play",function(){
     document.body.classList.add("is-playing");
+    document.title=activeSong&&activeSong.homageIntent?activeSong.homageIntent:"Suno Studio";
+    if("mediaSession" in navigator)navigator.mediaSession.playbackState="playing";
     playButton.textContent="❚❚";
     playButton.setAttribute("aria-label","暫停");
   });
   audio.addEventListener("pause",function(){
     document.body.classList.remove("is-playing");
+    document.title="Suno Studio";
+    if("mediaSession" in navigator)navigator.mediaSession.playbackState="paused";
     playButton.textContent="▶";
     playButton.setAttribute("aria-label","播放");
   });
