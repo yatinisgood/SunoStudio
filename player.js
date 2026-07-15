@@ -26,26 +26,16 @@
     playlistHead.className="playlist-head";
     playlistHead.textContent="PLAYLIST";
     playlist.appendChild(playlistHead);
-    var cursor=0;
-    library.forEach(function(song){
-      var group=document.createElement("section");
-      group.className="song-group";
-      var title=document.createElement("h2");
-      title.textContent=song.folderLabel;
-      group.appendChild(title);
-      song.tracks.forEach(function(track,index){
-        var button=document.createElement("button");
-        button.className="track-button";
-        button.dataset.track=String(cursor);
-        var name=document.createElement("span");
-        name.className="track-name";
-        name.textContent=track.label;
-        button.append(name);
-        button.addEventListener("click",function(){selectTrack(Number(button.dataset.track),true);});
-        group.appendChild(button);
-        cursor+=1;
-      });
-      playlist.appendChild(group);
+    tracks.forEach(function(track,index){
+      var button=document.createElement("button");
+      button.className="track-button";
+      button.dataset.track=String(index);
+      var name=document.createElement("span");
+      name.className="track-name";
+      name.textContent=track.label;
+      button.append(name);
+      button.addEventListener("click",function(){selectTrack(Number(button.dataset.track),true);});
+      playlist.appendChild(button);
     });
   }
 
@@ -74,7 +64,6 @@
     audio.load();
     document.querySelectorAll(".track-button").forEach(function(button,i){button.classList.toggle("active",i===index);});
     document.getElementById("nowLabel").textContent=item.song.title+" — "+item.label;
-    document.getElementById("storyKicker").textContent="致敬 "+item.song.referenceArtist+" · "+item.song.referenceTitle;
     document.getElementById("storyTitle").textContent=item.song.title;
     document.getElementById("storyIntent").textContent=item.song.homageIntent;
     renderLyrics(item.song);
