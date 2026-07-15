@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-15T12:52:34.582Z",
+  "sourceDirectory": "Prompts",
+  "songs": [
+    {
+      "title": "その日まで",
+      "slug": "sono-hi-made",
+      "source": "Prompts/中孝介_各自遠揚",
+      "publishDirectory": "songs/sono-hi-made",
+      "audio": [
+        {
+          "label": "その日まで_V1",
+          "sourceFilename": "その日まで_V1.mp3",
+          "file": "songs/sono-hi-made/audio/%E3%81%9D%E3%81%AE%E6%97%A5%E3%81%BE%E3%81%A7_V1.mp3"
+        },
+        {
+          "label": "その日まで_V2",
+          "sourceFilename": "その日まで_V2.mp3",
+          "file": "songs/sono-hi-made/audio/%E3%81%9D%E3%81%AE%E6%97%A5%E3%81%BE%E3%81%A7_V2.mp3"
+        }
+      ]
+    },
+    {
+      "title": "First Love",
+      "slug": "first-love",
+      "source": "Prompts/宇多田光_First Love",
+      "publishDirectory": "songs/first-love",
+      "audio": [
+        {
+          "label": "Safe in My Heart_V1",
+          "sourceFilename": "Safe in My Heart_V1.mp3",
+          "file": "songs/first-love/audio/Safe%20in%20My%20Heart_V1.mp3"
+        },
+        {
+          "label": "Safe in My Heart_V2",
+          "sourceFilename": "Safe in My Heart_V2.mp3",
+          "file": "songs/first-love/audio/Safe%20in%20My%20Heart_V2.mp3"
+        }
+      ]
+    }
+  ]
+}
