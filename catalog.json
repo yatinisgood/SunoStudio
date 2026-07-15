@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-15T14:58:28.089Z",
+  "generatedAt": "2026-07-15T15:13:30.765Z",
   "sourceDirectory": "Prompts",
   "songs": [
     {
@@ -36,6 +36,24 @@
           "label": "Safe in My Heart_V2",
           "sourceFilename": "Safe in My Heart_V2.mp3",
           "file": "songs/first-love/audio/Safe%20in%20My%20Heart_V2.mp3"
+        }
+      ]
+    },
+    {
+      "title": "余白の温度",
+      "slug": "yohaku-no-ondo",
+      "source": "Prompts/米津玄師_Lemon",
+      "publishDirectory": "songs/yohaku-no-ondo",
+      "audio": [
+        {
+          "label": "余白のままで_V1",
+          "sourceFilename": "余白のままで_V1.mp3",
+          "file": "songs/yohaku-no-ondo/audio/%E4%BD%99%E7%99%BD%E3%81%AE%E3%81%BE%E3%81%BE%E3%81%A7_V1.mp3"
+        },
+        {
+          "label": "余白のままで_V2",
+          "sourceFilename": "余白のままで_V2.mp3",
+          "file": "songs/yohaku-no-ondo/audio/%E4%BD%99%E7%99%BD%E3%81%AE%E3%81%BE%E3%81%BE%E3%81%A7_V2.mp3"
         }
       ]
     },
