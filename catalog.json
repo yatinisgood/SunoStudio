@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-15T13:18:07.754Z",
+  "generatedAt": "2026-07-15T14:03:16.005Z",
   "sourceDirectory": "Prompts",
   "songs": [
     {
@@ -36,6 +36,24 @@
           "label": "Safe in My Heart_V2",
           "sourceFilename": "Safe in My Heart_V2.mp3",
           "file": "songs/first-love/audio/Safe%20in%20My%20Heart_V2.mp3"
+        }
+      ]
+    },
+    {
+      "title": "逆光シグナル",
+      "slug": "gyakkou-signal",
+      "source": "Prompts/YOASOBI_夜に駆ける",
+      "publishDirectory": "songs/gyakkou-signal",
+      "audio": [
+        {
+          "label": "逆光のシグナル_V1",
+          "sourceFilename": "逆光のシグナル_V1.mp3",
+          "file": "songs/gyakkou-signal/audio/%E9%80%86%E5%85%89%E3%81%AE%E3%82%B7%E3%82%B0%E3%83%8A%E3%83%AB_V1.mp3"
+        },
+        {
+          "label": "逆光のシグナル_V2",
+          "sourceFilename": "逆光のシグナル_V2.mp3",
+          "file": "songs/gyakkou-signal/audio/%E9%80%86%E5%85%89%E3%81%AE%E3%82%B7%E3%82%B0%E3%83%8A%E3%83%AB_V2.mp3"
         }
       ]
     }
