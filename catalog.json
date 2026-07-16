@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-15T15:13:30.765Z",
+  "generatedAt": "2026-07-16T11:55:09.770Z",
   "sourceDirectory": "Prompts",
   "songs": [
     {
@@ -54,6 +54,24 @@
           "label": "余白のままで_V2",
           "sourceFilename": "余白のままで_V2.mp3",
           "file": "songs/yohaku-no-ondo/audio/%E4%BD%99%E7%99%BD%E3%81%AE%E3%81%BE%E3%81%BE%E3%81%A7_V2.mp3"
+        }
+      ]
+    },
+    {
+      "title": "鍵を置いた朝",
+      "slug": "kagi-wo-oita-asa",
+      "source": "Prompts/優里_ドライフラワー",
+      "publishDirectory": "songs/kagi-wo-oita-asa",
+      "audio": [
+        {
+          "label": "返せない鍵_v1",
+          "sourceFilename": "返せない鍵_v1.mp3",
+          "file": "songs/kagi-wo-oita-asa/audio/%E8%BF%94%E3%81%9B%E3%81%AA%E3%81%84%E9%8D%B5_v1.mp3"
+        },
+        {
+          "label": "返せない鍵_v2",
+          "sourceFilename": "返せない鍵_v2.mp3",
+          "file": "songs/kagi-wo-oita-asa/audio/%E8%BF%94%E3%81%9B%E3%81%AA%E3%81%84%E9%8D%B5_v2.mp3"
         }
       ]
     },
