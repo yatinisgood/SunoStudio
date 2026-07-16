@@ -1,62 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-16T12:35:22.558Z",
+  "generatedAt": "2026-07-16T12:43:36.121Z",
   "sourceDirectory": "Prompts",
   "songs": [
-    {
-      "title": "その日まで",
-      "slug": "sono-hi-made",
-      "source": "Prompts/中孝介_各自遠揚",
-      "publishDirectory": "songs/sono-hi-made",
-      "audio": [
-        {
-          "label": "その日まで_V1",
-          "sourceFilename": "その日まで_V1.mp3",
-          "file": "songs/sono-hi-made/audio/%E3%81%9D%E3%81%AE%E6%97%A5%E3%81%BE%E3%81%A7_V1.mp3"
-        },
-        {
-          "label": "その日まで_V2",
-          "sourceFilename": "その日まで_V2.mp3",
-          "file": "songs/sono-hi-made/audio/%E3%81%9D%E3%81%AE%E6%97%A5%E3%81%BE%E3%81%A7_V2.mp3"
-        }
-      ]
-    },
-    {
-      "title": "First Love",
-      "slug": "first-love",
-      "source": "Prompts/宇多田光_First Love",
-      "publishDirectory": "songs/first-love",
-      "audio": [
-        {
-          "label": "Safe in My Heart_V1",
-          "sourceFilename": "Safe in My Heart_V1.mp3",
-          "file": "songs/first-love/audio/Safe%20in%20My%20Heart_V1.mp3"
-        },
-        {
-          "label": "Safe in My Heart_V2",
-          "sourceFilename": "Safe in My Heart_V2.mp3",
-          "file": "songs/first-love/audio/Safe%20in%20My%20Heart_V2.mp3"
-        }
-      ]
-    },
-    {
-      "title": "余白の温度",
-      "slug": "yohaku-no-ondo",
-      "source": "Prompts/米津玄師_Lemon",
-      "publishDirectory": "songs/yohaku-no-ondo",
-      "audio": [
-        {
-          "label": "余白のままで_V1",
-          "sourceFilename": "余白のままで_V1.mp3",
-          "file": "songs/yohaku-no-ondo/audio/%E4%BD%99%E7%99%BD%E3%81%AE%E3%81%BE%E3%81%BE%E3%81%A7_V1.mp3"
-        },
-        {
-          "label": "余白のままで_V2",
-          "sourceFilename": "余白のままで_V2.mp3",
-          "file": "songs/yohaku-no-ondo/audio/%E4%BD%99%E7%99%BD%E3%81%AE%E3%81%BE%E3%81%BE%E3%81%A7_V2.mp3"
-        }
-      ]
-    },
     {
       "title": "宛先のない絵葉書",
       "slug": "atesaki-no-nai-ehagaki",
@@ -66,30 +12,14 @@
         {
           "label": "宛先のない絵葉書_v1",
           "sourceFilename": "宛先のない絵葉書_v1.mp3",
-          "file": "songs/atesaki-no-nai-ehagaki/audio/%E5%AE%9B%E5%85%88%E3%81%AE%E3%81%AA%E3%81%84%E7%B5%B5%E8%91%89%E6%9B%B8_v1.mp3"
+          "file": "songs/atesaki-no-nai-ehagaki/audio/%E5%AE%9B%E5%85%88%E3%81%AE%E3%81%AA%E3%81%84%E7%B5%B5%E8%91%89%E6%9B%B8_v1.mp3",
+          "createdAt": "2026-07-16T12:32:33.894Z"
         },
         {
           "label": "宛先のない絵葉書_v2",
           "sourceFilename": "宛先のない絵葉書_v2.mp3",
-          "file": "songs/atesaki-no-nai-ehagaki/audio/%E5%AE%9B%E5%85%88%E3%81%AE%E3%81%AA%E3%81%84%E7%B5%B5%E8%91%89%E6%9B%B8_v2.mp3"
-        }
-      ]
-    },
-    {
-      "title": "鍵を置いた朝",
-      "slug": "kagi-wo-oita-asa",
-      "source": "Prompts/優里_ドライフラワー",
-      "publishDirectory": "songs/kagi-wo-oita-asa",
-      "audio": [
-        {
-          "label": "返せない鍵_v1",
-          "sourceFilename": "返せない鍵_v1.mp3",
-          "file": "songs/kagi-wo-oita-asa/audio/%E8%BF%94%E3%81%9B%E3%81%AA%E3%81%84%E9%8D%B5_v1.mp3"
-        },
-        {
-          "label": "返せない鍵_v2",
-          "sourceFilename": "返せない鍵_v2.mp3",
-          "file": "songs/kagi-wo-oita-asa/audio/%E8%BF%94%E3%81%9B%E3%81%AA%E3%81%84%E9%8D%B5_v2.mp3"
+          "file": "songs/atesaki-no-nai-ehagaki/audio/%E5%AE%9B%E5%85%88%E3%81%AE%E3%81%AA%E3%81%84%E7%B5%B5%E8%91%89%E6%9B%B8_v2.mp3",
+          "createdAt": "2026-07-16T12:32:32.753Z"
         }
       ]
     },
@@ -100,14 +30,16 @@
       "publishDirectory": "songs/saigo-no-beru",
       "audio": [
         {
-          "label": "青いベル_V1",
-          "sourceFilename": "青いベル_V1.mp3",
-          "file": "songs/saigo-no-beru/audio/%E9%9D%92%E3%81%84%E3%83%99%E3%83%AB_V1.mp3"
-        },
-        {
           "label": "青いベル_V2",
           "sourceFilename": "青いベル_V2.mp3",
-          "file": "songs/saigo-no-beru/audio/%E9%9D%92%E3%81%84%E3%83%99%E3%83%AB_V2.mp3"
+          "file": "songs/saigo-no-beru/audio/%E9%9D%92%E3%81%84%E3%83%99%E3%83%AB_V2.mp3",
+          "createdAt": "2026-07-16T12:26:11.890Z"
+        },
+        {
+          "label": "青いベル_V1",
+          "sourceFilename": "青いベル_V1.mp3",
+          "file": "songs/saigo-no-beru/audio/%E9%9D%92%E3%81%84%E3%83%99%E3%83%AB_V1.mp3",
+          "createdAt": "2026-07-16T12:26:11.328Z"
         }
       ]
     },
@@ -120,30 +52,54 @@
         {
           "label": "白紙の航路_V1",
           "sourceFilename": "白紙の航路_V1.mp3",
-          "file": "songs/hakushi-no-kouro/audio/%E7%99%BD%E7%B4%99%E3%81%AE%E8%88%AA%E8%B7%AF_V1.mp3"
+          "file": "songs/hakushi-no-kouro/audio/%E7%99%BD%E7%B4%99%E3%81%AE%E8%88%AA%E8%B7%AF_V1.mp3",
+          "createdAt": "2026-07-16T12:13:59.440Z"
         },
         {
           "label": "白紙の航路_V2",
           "sourceFilename": "白紙の航路_V2.mp3",
-          "file": "songs/hakushi-no-kouro/audio/%E7%99%BD%E7%B4%99%E3%81%AE%E8%88%AA%E8%B7%AF_V2.mp3"
+          "file": "songs/hakushi-no-kouro/audio/%E7%99%BD%E7%B4%99%E3%81%AE%E8%88%AA%E8%B7%AF_V2.mp3",
+          "createdAt": "2026-07-16T12:13:57.971Z"
         }
       ]
     },
     {
-      "title": "逆光シグナル",
-      "slug": "gyakkou-signal",
-      "source": "Prompts/YOASOBI_夜に駆ける",
-      "publishDirectory": "songs/gyakkou-signal",
+      "title": "鍵を置いた朝",
+      "slug": "kagi-wo-oita-asa",
+      "source": "Prompts/優里_ドライフラワー",
+      "publishDirectory": "songs/kagi-wo-oita-asa",
       "audio": [
         {
-          "label": "逆光のシグナル_V1",
-          "sourceFilename": "逆光のシグナル_V1.mp3",
-          "file": "songs/gyakkou-signal/audio/%E9%80%86%E5%85%89%E3%81%AE%E3%82%B7%E3%82%B0%E3%83%8A%E3%83%AB_V1.mp3"
+          "label": "返せない鍵_v1",
+          "sourceFilename": "返せない鍵_v1.mp3",
+          "file": "songs/kagi-wo-oita-asa/audio/%E8%BF%94%E3%81%9B%E3%81%AA%E3%81%84%E9%8D%B5_v1.mp3",
+          "createdAt": "2026-07-16T11:53:24.920Z"
         },
         {
-          "label": "逆光のシグナル_V2",
-          "sourceFilename": "逆光のシグナル_V2.mp3",
-          "file": "songs/gyakkou-signal/audio/%E9%80%86%E5%85%89%E3%81%AE%E3%82%B7%E3%82%B0%E3%83%8A%E3%83%AB_V2.mp3"
+          "label": "返せない鍵_v2",
+          "sourceFilename": "返せない鍵_v2.mp3",
+          "file": "songs/kagi-wo-oita-asa/audio/%E8%BF%94%E3%81%9B%E3%81%AA%E3%81%84%E9%8D%B5_v2.mp3",
+          "createdAt": "2026-07-16T11:53:24.197Z"
+        }
+      ]
+    },
+    {
+      "title": "余白の温度",
+      "slug": "yohaku-no-ondo",
+      "source": "Prompts/米津玄師_Lemon",
+      "publishDirectory": "songs/yohaku-no-ondo",
+      "audio": [
+        {
+          "label": "余白のままで_V1",
+          "sourceFilename": "余白のままで_V1.mp3",
+          "file": "songs/yohaku-no-ondo/audio/%E4%BD%99%E7%99%BD%E3%81%AE%E3%81%BE%E3%81%BE%E3%81%A7_V1.mp3",
+          "createdAt": "2026-07-15T15:12:40.409Z"
+        },
+        {
+          "label": "余白のままで_V2",
+          "sourceFilename": "余白のままで_V2.mp3",
+          "file": "songs/yohaku-no-ondo/audio/%E4%BD%99%E7%99%BD%E3%81%AE%E3%81%BE%E3%81%BE%E3%81%A7_V2.mp3",
+          "createdAt": "2026-07-15T15:12:39.568Z"
         }
       ]
     },
@@ -156,12 +112,74 @@
         {
           "label": "ノイズの花_V1",
           "sourceFilename": "ノイズの花_V1.mp3",
-          "file": "songs/noise-no-hana/audio/%E3%83%8E%E3%82%A4%E3%82%BA%E3%81%AE%E8%8A%B1_V1.mp3"
+          "file": "songs/noise-no-hana/audio/%E3%83%8E%E3%82%A4%E3%82%BA%E3%81%AE%E8%8A%B1_V1.mp3",
+          "createdAt": "2026-07-15T14:56:55.837Z"
         },
         {
           "label": "ノイズの花_V2",
           "sourceFilename": "ノイズの花_V2.mp3",
-          "file": "songs/noise-no-hana/audio/%E3%83%8E%E3%82%A4%E3%82%BA%E3%81%AE%E8%8A%B1_V2.mp3"
+          "file": "songs/noise-no-hana/audio/%E3%83%8E%E3%82%A4%E3%82%BA%E3%81%AE%E8%8A%B1_V2.mp3",
+          "createdAt": "2026-07-15T14:56:55.836Z"
+        }
+      ]
+    },
+    {
+      "title": "逆光シグナル",
+      "slug": "gyakkou-signal",
+      "source": "Prompts/YOASOBI_夜に駆ける",
+      "publishDirectory": "songs/gyakkou-signal",
+      "audio": [
+        {
+          "label": "逆光のシグナル_V2",
+          "sourceFilename": "逆光のシグナル_V2.mp3",
+          "file": "songs/gyakkou-signal/audio/%E9%80%86%E5%85%89%E3%81%AE%E3%82%B7%E3%82%B0%E3%83%8A%E3%83%AB_V2.mp3",
+          "createdAt": "2026-07-15T14:02:27.458Z"
+        },
+        {
+          "label": "逆光のシグナル_V1",
+          "sourceFilename": "逆光のシグナル_V1.mp3",
+          "file": "songs/gyakkou-signal/audio/%E9%80%86%E5%85%89%E3%81%AE%E3%82%B7%E3%82%B0%E3%83%8A%E3%83%AB_V1.mp3",
+          "createdAt": "2026-07-15T14:02:27.450Z"
+        }
+      ]
+    },
+    {
+      "title": "その日まで",
+      "slug": "sono-hi-made",
+      "source": "Prompts/中孝介_各自遠揚",
+      "publishDirectory": "songs/sono-hi-made",
+      "audio": [
+        {
+          "label": "その日まで_V1",
+          "sourceFilename": "その日まで_V1.mp3",
+          "file": "songs/sono-hi-made/audio/%E3%81%9D%E3%81%AE%E6%97%A5%E3%81%BE%E3%81%A7_V1.mp3",
+          "createdAt": "2026-07-15T08:55:59.258Z"
+        },
+        {
+          "label": "その日まで_V2",
+          "sourceFilename": "その日まで_V2.mp3",
+          "file": "songs/sono-hi-made/audio/%E3%81%9D%E3%81%AE%E6%97%A5%E3%81%BE%E3%81%A7_V2.mp3",
+          "createdAt": "2026-07-15T08:55:58.728Z"
+        }
+      ]
+    },
+    {
+      "title": "First Love",
+      "slug": "first-love",
+      "source": "Prompts/宇多田光_First Love",
+      "publishDirectory": "songs/first-love",
+      "audio": [
+        {
+          "label": "Safe in My Heart_V1",
+          "sourceFilename": "Safe in My Heart_V1.mp3",
+          "file": "songs/first-love/audio/Safe%20in%20My%20Heart_V1.mp3",
+          "createdAt": "2026-07-15T08:07:54.223Z"
+        },
+        {
+          "label": "Safe in My Heart_V2",
+          "sourceFilename": "Safe in My Heart_V2.mp3",
+          "file": "songs/first-love/audio/Safe%20in%20My%20Heart_V2.mp3",
+          "createdAt": "2026-07-15T08:07:53.581Z"
         }
       ]
     }

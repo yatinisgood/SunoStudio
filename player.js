@@ -13,6 +13,10 @@
       tracks.push({song:song,songIndex:songIndex,versionIndex:versionIndex,label:track.label,audio:track.audio});
     });
   });
+  tracks.sort(function(a,b){
+    var timeDifference=Date.parse(b.song.tracks[b.versionIndex].createdAt)-Date.parse(a.song.tracks[a.versionIndex].createdAt);
+    return (Number.isFinite(timeDifference)?timeDifference:0)||a.label.localeCompare(b.label,"zh-Hant",{numeric:true});
+  });
 
   function formatTime(value){
     if(!Number.isFinite(value))return "00:00";
