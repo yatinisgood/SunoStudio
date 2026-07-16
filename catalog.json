@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-16T12:15:28.375Z",
+  "generatedAt": "2026-07-16T12:27:36.189Z",
   "sourceDirectory": "Prompts",
   "songs": [
     {
@@ -58,6 +58,13 @@
       ]
     },
     {
+      "title": "宛先のない絵葉書",
+      "slug": "atesaki-no-nai-ehagaki",
+      "source": "Prompts/陳綺貞_旅行的意義",
+      "publishDirectory": "songs/atesaki-no-nai-ehagaki",
+      "audio": []
+    },
+    {
       "title": "鍵を置いた朝",
       "slug": "kagi-wo-oita-asa",
       "source": "Prompts/優里_ドライフラワー",
@@ -72,6 +79,24 @@
           "label": "返せない鍵_v2",
           "sourceFilename": "返せない鍵_v2.mp3",
           "file": "songs/kagi-wo-oita-asa/audio/%E8%BF%94%E3%81%9B%E3%81%AA%E3%81%84%E9%8D%B5_v2.mp3"
+        }
+      ]
+    },
+    {
+      "title": "最後のベル",
+      "slug": "saigo-no-beru",
+      "source": "Prompts/優里_レオ",
+      "publishDirectory": "songs/saigo-no-beru",
+      "audio": [
+        {
+          "label": "青いベル_V1",
+          "sourceFilename": "青いベル_V1.mp3",
+          "file": "songs/saigo-no-beru/audio/%E9%9D%92%E3%81%84%E3%83%99%E3%83%AB_V1.mp3"
+        },
+        {
+          "label": "青いベル_V2",
+          "sourceFilename": "青いベル_V2.mp3",
+          "file": "songs/saigo-no-beru/audio/%E9%9D%92%E3%81%84%E3%83%99%E3%83%AB_V2.mp3"
         }
       ]
     },
