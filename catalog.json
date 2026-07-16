@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-16T11:55:09.770Z",
+  "generatedAt": "2026-07-16T12:15:28.375Z",
   "sourceDirectory": "Prompts",
   "songs": [
     {
@@ -72,6 +72,24 @@
           "label": "返せない鍵_v2",
           "sourceFilename": "返せない鍵_v2.mp3",
           "file": "songs/kagi-wo-oita-asa/audio/%E8%BF%94%E3%81%9B%E3%81%AA%E3%81%84%E9%8D%B5_v2.mp3"
+        }
+      ]
+    },
+    {
+      "title": "白紙の航路",
+      "slug": "hakushi-no-kouro",
+      "source": "Prompts/tuki._一輪花",
+      "publishDirectory": "songs/hakushi-no-kouro",
+      "audio": [
+        {
+          "label": "白紙の航路_V1",
+          "sourceFilename": "白紙の航路_V1.mp3",
+          "file": "songs/hakushi-no-kouro/audio/%E7%99%BD%E7%B4%99%E3%81%AE%E8%88%AA%E8%B7%AF_V1.mp3"
+        },
+        {
+          "label": "白紙の航路_V2",
+          "sourceFilename": "白紙の航路_V2.mp3",
+          "file": "songs/hakushi-no-kouro/audio/%E7%99%BD%E7%B4%99%E3%81%AE%E8%88%AA%E8%B7%AF_V2.mp3"
         }
       ]
     },
