@@ -108,13 +108,11 @@
   volume.addEventListener("input",function(){audio.volume=Number(volume.value);});
   audio.volume=Number(volume.value);
 
-  var stage=document.querySelector(".stage");
   var interactiveGradient=document.querySelector(".interactive-gradient");
   var currentX=0,currentY=0,targetX=0,targetY=0;
-  stage.addEventListener("pointermove",function(event){
-    var bounds=stage.getBoundingClientRect();
-    targetX=event.clientX-bounds.left;
-    targetY=event.clientY-bounds.top;
+  window.addEventListener("pointermove",function(event){
+    targetX=event.clientX;
+    targetY=event.clientY;
   });
   function moveInteractiveGradient(){
     currentX+=(targetX-currentX)/20;
