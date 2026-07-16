@@ -29,7 +29,9 @@
     var playlistHead=document.createElement("div");
     playlistHead.className="playlist-head";
     playlistHead.textContent="PLAYLIST";
-    playlist.appendChild(playlistHead);
+    var playlistScroll=document.createElement("div");
+    playlistScroll.className="playlist-scroll";
+    playlist.append(playlistHead,playlistScroll);
     tracks.forEach(function(track,index){
       var button=document.createElement("button");
       button.className="track-button";
@@ -39,7 +41,7 @@
       name.textContent=track.label;
       button.append(name);
       button.addEventListener("click",function(){selectTrack(Number(button.dataset.track),true);});
-      playlist.appendChild(button);
+      playlistScroll.appendChild(button);
     });
   }
 
