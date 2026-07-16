@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-16T12:27:36.189Z",
+  "generatedAt": "2026-07-16T12:35:22.558Z",
   "sourceDirectory": "Prompts",
   "songs": [
     {
@@ -62,7 +62,18 @@
       "slug": "atesaki-no-nai-ehagaki",
       "source": "Prompts/陳綺貞_旅行的意義",
       "publishDirectory": "songs/atesaki-no-nai-ehagaki",
-      "audio": []
+      "audio": [
+        {
+          "label": "宛先のない絵葉書_v1",
+          "sourceFilename": "宛先のない絵葉書_v1.mp3",
+          "file": "songs/atesaki-no-nai-ehagaki/audio/%E5%AE%9B%E5%85%88%E3%81%AE%E3%81%AA%E3%81%84%E7%B5%B5%E8%91%89%E6%9B%B8_v1.mp3"
+        },
+        {
+          "label": "宛先のない絵葉書_v2",
+          "sourceFilename": "宛先のない絵葉書_v2.mp3",
+          "file": "songs/atesaki-no-nai-ehagaki/audio/%E5%AE%9B%E5%85%88%E3%81%AE%E3%81%AA%E3%81%84%E7%B5%B5%E8%91%89%E6%9B%B8_v2.mp3"
+        }
+      ]
     },
     {
       "title": "鍵を置いた朝",
