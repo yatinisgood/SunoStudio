@@ -1,8 +1,48 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-16T12:43:36.121Z",
+  "generatedAt": "2026-07-16T15:06:23.544Z",
   "sourceDirectory": "Prompts",
   "songs": [
+    {
+      "title": "把光帶走",
+      "slug": "ba-guang-dai-zou",
+      "source": "Prompts/五月天_乾杯",
+      "publishDirectory": "songs/ba-guang-dai-zou",
+      "audio": [
+        {
+          "label": "把同一束光帶走_V1",
+          "sourceFilename": "把同一束光帶走_V1.mp3",
+          "file": "songs/ba-guang-dai-zou/audio/%E6%8A%8A%E5%90%8C%E4%B8%80%E6%9D%9F%E5%85%89%E5%B8%B6%E8%B5%B0_V1.mp3",
+          "createdAt": "2026-07-16T15:03:38.183Z"
+        },
+        {
+          "label": "把同一束光帶走_V2",
+          "sourceFilename": "把同一束光帶走_V2.mp3",
+          "file": "songs/ba-guang-dai-zou/audio/%E6%8A%8A%E5%90%8C%E4%B8%80%E6%9D%9F%E5%85%89%E5%B8%B6%E8%B5%B0_V2.mp3",
+          "createdAt": "2026-07-16T15:03:36.692Z"
+        }
+      ]
+    },
+    {
+      "title": "燈落舊戲樓",
+      "slug": "deng-luo-jiu-xi-lou",
+      "source": "Prompts/周杰倫_青花瓷",
+      "publishDirectory": "songs/deng-luo-jiu-xi-lou",
+      "audio": [
+        {
+          "label": "燈落舊戲樓_V1",
+          "sourceFilename": "燈落舊戲樓_V1.mp3",
+          "file": "songs/deng-luo-jiu-xi-lou/audio/%E7%87%88%E8%90%BD%E8%88%8A%E6%88%B2%E6%A8%93_V1.mp3",
+          "createdAt": "2026-07-16T14:57:04.935Z"
+        },
+        {
+          "label": "燈落舊戲樓_V2",
+          "sourceFilename": "燈落舊戲樓_V2.mp3",
+          "file": "songs/deng-luo-jiu-xi-lou/audio/%E7%87%88%E8%90%BD%E8%88%8A%E6%88%B2%E6%A8%93_V2.mp3",
+          "createdAt": "2026-07-16T14:57:03.725Z"
+        }
+      ]
+    },
     {
       "title": "宛先のない絵葉書",
       "slug": "atesaki-no-nai-ehagaki",
@@ -182,6 +222,13 @@
           "createdAt": "2026-07-15T08:07:53.581Z"
         }
       ]
+    },
+    {
+      "title": "在天亮以前",
+      "slug": "zai-tian-liang-yi-qian",
+      "source": "Prompts/韋禮安_如果可以",
+      "publishDirectory": "songs/zai-tian-liang-yi-qian",
+      "audio": []
     }
   ]
 }
