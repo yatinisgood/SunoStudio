@@ -1,8 +1,28 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-16T15:06:23.544Z",
+  "generatedAt": "2026-07-16T15:16:17.787Z",
   "sourceDirectory": "Prompts",
   "songs": [
+    {
+      "title": "在天亮以前",
+      "slug": "zai-tian-liang-yi-qian",
+      "source": "Prompts/韋禮安_如果可以",
+      "publishDirectory": "songs/zai-tian-liang-yi-qian",
+      "audio": [
+        {
+          "label": "在天亮以前_V2",
+          "sourceFilename": "在天亮以前_V2.mp3",
+          "file": "songs/zai-tian-liang-yi-qian/audio/%E5%9C%A8%E5%A4%A9%E4%BA%AE%E4%BB%A5%E5%89%8D_V2.mp3",
+          "createdAt": "2026-07-16T15:15:33.103Z"
+        },
+        {
+          "label": "在天亮以前_V1",
+          "sourceFilename": "在天亮以前_V1.mp3",
+          "file": "songs/zai-tian-liang-yi-qian/audio/%E5%9C%A8%E5%A4%A9%E4%BA%AE%E4%BB%A5%E5%89%8D_V1.mp3",
+          "createdAt": "2026-07-16T15:15:32.487Z"
+        }
+      ]
+    },
     {
       "title": "把光帶走",
       "slug": "ba-guang-dai-zou",
@@ -222,13 +242,6 @@
           "createdAt": "2026-07-15T08:07:53.581Z"
         }
       ]
-    },
-    {
-      "title": "在天亮以前",
-      "slug": "zai-tian-liang-yi-qian",
-      "source": "Prompts/韋禮安_如果可以",
-      "publishDirectory": "songs/zai-tian-liang-yi-qian",
-      "audio": []
     }
   ]
 }
